@@ -1,0 +1,135 @@
+<QUESTION>
+	<LEVEL1>
+		<QSET TN="1">
+			<QT>請問影片一開始的名句是什麼?</QT>
+			<ANS>A.最適合你的顏色，就是世界上最美麗的顏色</ANS>
+			<ANS>B.時尚易逝，風格永存</ANS>
+			<ANS>C.想要無可取代，就必須與眾不同</ANS>
+		</QSET>
+		<QSET TN="2">
+			<QT>請問UNI SPORT屬於哪一類型的飲品?</QT>
+			<ANS>A.碳酸飲料</ANS>
+			<ANS>B.運動補給飲品</ANS>
+		</QSET>
+		<QSET TN="2">
+			<QT>請問UNI SPORT包裝共有幾色?</QT>
+			<ANS>A.4色</ANS>
+			<ANS>B.7色</ANS>
+		</QSET>
+		<QSET TN="2">
+			<QT>請問人體什麼時候會流失水分?</QT>
+			<ANS>A.運動時</ANS>
+			<ANS>B.隨時</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問UNI SPORT包裝正面的訴求為?</QT>
+			<ANS>A.低熱量、輕爽補水</ANS>
+			<ANS>B.解身體的渴</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問黃色男孩送了黃色女孩什麼?</QT>
+			<ANS>A.花</ANS>
+			<ANS>B.一瓶UNI SPORT</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問草原上盪鞦韆的女孩代表什麼顏色?</QT>
+			<ANS>A.綠色</ANS>
+			<ANS>B.藍色</ANS>
+		</QSET>
+		<QSET TN="2">
+			<QT>請問拿相機拍照的主角性別是?</QT>
+			<ANS>A.女生</ANS>
+			<ANS>B.男生</ANS>
+		</QSET>
+	</LEVEL1>
+	<LEVEL2>
+		<QSET TN="1">
+			<QT>請問UNI SPORT以萬花筒呈現時，共有幾瓶一起轉動?</QT>
+			<ANS>A.七瓶</ANS>
+			<ANS>B.八瓶</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問靛色的男孩坐在哪裡補充UNI SPORT?</QT>
+			<ANS>A.台階上</ANS>
+			<ANS>B.鞦韆上</ANS>
+			<ANS>C.咖啡廳前</ANS>
+		</QSET>
+		<QSET TN="2">
+			<QT>請問藍色男孩衝浪後喝飲料時，身後的建築物是?</QT>
+			<ANS>A.鐘樓</ANS>
+			<ANS>B.燈塔</ANS>
+		</QSET>
+		<QSET TN="2">
+			<QT>請問UNI SPORT補給飲料符合以下哪一項標準?</QT>
+			<ANS>A.高鈣</ANS>
+			<ANS>B.低熱量</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問時尚party中的紫色的男孩和女孩用什麼乾杯？</QT>
+			<ANS>A.兩瓶紫色UNI SPORT</ANS>
+			<ANS>B.兩杯紅酒</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問紅色女孩進鞋店之前穿什麼顏色的高跟鞋?</QT>
+			<ANS>A.黑色</ANS>
+			<ANS>B.紅色</ANS>
+		</QSET>
+		<QSET TN="3">
+			<QT>UNI SPORT適合?</QT>
+			<ANS>A.自信並追求突破，想要繽紛生活的人</ANS>
+			<ANS>B.追求時尚、低卡，對身體無負擔的人</ANS>
+			<ANS>C.以上都對</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問最後7彩UNI SPORT收在哪一款顏色後方?</QT>
+			<ANS>A.紅</ANS>
+			<ANS>B.橙</ANS>
+			<ANS>C.黃</ANS>
+			<ANS>D.綠</ANS>
+		</QSET>
+	</LEVEL2>
+	<LEVEL3>
+		<QSET TN="3">
+			<QT>請問按照一下顏色順序（紅、橙、黃、綠、藍、靛、紫），排列出相對應的場所?</QT>
+			<ANS>A.時尚party、草原上、海上、花店、咖啡店、鞋店、城市街道上</ANS>
+			<ANS>B.時尚party、花店、草原上、海上、咖啡店、城市街道上、鞋店</ANS>
+			<ANS>C.鞋店、咖啡店、花店、草原上、海上、城市街道上、時尚party</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問紅色的時尚配件有哪些?</QT>
+			<ANS>A.香水、高跟鞋、包包、 項鍊、墨鏡、大衣</ANS>
+			<ANS>B.手鍊、耳環、楔形鞋、高腳杯、錢包</ANS>
+			<ANS>C.指甲油、 眼影、 指甲油、 檯燈、 錢包</ANS>
+		</QSET>
+		<QSET TN="2">
+			<QT>請問紫色女孩穿的洋裝，蝴蝶結打在女孩的?</QT>
+			<ANS>A.右手邊</ANS>
+			<ANS>B.左手邊</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問騎腳踏車的靛色男孩是用哪一隻手補充UNI SPORT?</QT>
+			<ANS>A.右手</ANS>
+			<ANS>B.左手</ANS>
+		</QSET>
+		<QSET TN="2">
+			<QT>請問影片中，顏色出現的順序為何?</QT>
+			<ANS>A. 紅、橙、黃、綠、藍、靛、紫</ANS>
+			<ANS>B. 紅、靛、橙、綠、藍、紫、黃</ANS>
+		</QSET>
+		<QSET TN="2">
+			<QT>請問黃色女孩的項鍊，有幾朵黃色花朵?</QT>
+			<ANS>A.３朵</ANS>
+			<ANS>B.５朵</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問UNI SPORT以萬花筒方式呈現時，是以何種方向轉動?</QT>
+			<ANS>A.順時針</ANS>
+			<ANS>B.逆時針</ANS>
+		</QSET>
+		<QSET TN="1">
+			<QT>請問橙色女孩被拍照時，翹起哪一隻腳?</QT>
+			<ANS>A.左腳</ANS>
+			<ANS>B.右腳</ANS>
+		</QSET>
+	</LEVEL3>
+</QUESTION>

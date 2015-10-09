@@ -1,0 +1,167 @@
+﻿html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}.wrapper .content .q-text .selectstyle,.wrapper .content .q-text .selectstyle2{width:121px;height:32px;background:transparent;margin-bottom:17px;border:none;outline:none;font-size:16px;-moz-appearance:none;-webkit-appearance:none;font-family:"微軟正黑體";cursor:pointer}
+html{width:100%;height:100%}
+body{width:100%;height:100%; min-width:900px; min-height:600px;position:relative;font-family:"Arial","微軟正黑體"; background:#fff}
+a{text-decorate:none}
+/*load*/
+.loading{position:fixed;width:100%;height:100%;left:0;top:0; z-index: 1}
+.loading .loadingbg {position:absolute;width:100%;height:100%;left:0;top:0;background:#fff}
+.loading .loadingicon {position:absolute;width:150px;height:150px;left:0px;right:0px;top:0px;bottom:0px;margin:auto;text-align:center}
+.loading .loadingicon .loadingpic {width:100%;height:100%;position:absolute;background-image:url("../img/loading.gif");background-position:0 0;background-repeat:no-repeat}
+.loading .loadingicon .percent {font-weight:normal;font-size: 24px;font-family:"Arial";line-height: 24px;position:relative;margin:77px auto}
+.wrapper {width:100%; height:100%; position: absolute; overflow-y: hidden;}
+.sec_all { position: absolute; top: 50%; left: 0; margin-top: -540px; width: 9920px;}
+.sec_middle {height: 100%}
+.sec_all .sec { position: relative; width: 1600px; height: 1080px; float: left}
+.content { width: 1024px; height: 100%; position: relative; margin: 0 auto}
+.idm { width: 1109px; height: 624px; background: url(../img/idm.png) 0 0 no-repeat; position: absolute; top: 239px; left: 455px}
+.idl {position: absolute; left: 55px; top: 286px}
+.it1 {position: absolute; top: 50%; left: 50%; margin:-219px -205px 0 -200px}
+.ib { cursor: pointer; position: absolute; top: 50%; left: 50%; margin:53px 0 0 0; width: 144px; height: 117px; background: url() 0 0 no-repeat;}
+.ib1 { background-image: url(../img/ib1.png); margin-left:-146px}
+.ib2 { background-image: url(../img/ib2.png); margin-left:19px}
+.ib:hover {background-position: -144px 0}
+.idr {position: absolute; bottom: 14px; right: -30px}
+.ipds {position: absolute; bottom: 144px; right: 24px}
+.ipd {width: 142px; height: 503px; background: url('../img/7pd.png') 0 0 no-repeat; position: absolute; bottom: 0; right: 0}
+.ipd:nth-child(7) { background-position: 0 0}
+.ipd:nth-child(6) { background-position: -142px 0}
+.ipd:nth-child(5) { background-position: -284px 0}
+.ipd:nth-child(4) { background-position: -426px 0}
+.ipd:nth-child(3) { background-position: -568px 0}
+.ipd:nth-child(2) { background-position: -710px 0}
+.ipd:nth-child(1) { background-position: -852px 0}
+.c2m {width: 1449px; height: 624px; background: url(../img/c2m.png) 0 0 no-repeat; position: absolute; right: 0; top: 282px}
+.c2l {width: 259px; height: 414px; background: url(../img/c2l.png) 0 0 no-repeat; position: absolute; left: 0; top: 430px}
+.c2r {width: 688px; height: 428px; background: url(../img/c2r.png) 0 0 no-repeat; position: absolute; left: 147px; top: 50%; margin-top: -232px}
+#ct2player {width: 639px; height: 359px; background: #000; position: absolute; left: 25px; top: 22px}
+.videoBtns {position: absolute; bottom: -50px; text-align: center; width: 100%}
+.videoBtn {width: 128px; height: 33px; background: url(../img/videoBtn.png) 0 0 no-repeat; position: relative; display: inline-block; cursor: pointer;margin-right: 5px}
+.videoBtn:nth-child(1){background-position: 0 0}
+.videoBtn:nth-child(2){background-position: -128px 0}
+.videoBtn:nth-child(3){background-position: -256px 0}
+.videoBtn:nth-child(1):hover {background-position: 0 -33px}
+.videoBtn:nth-child(2):hover {background-position: -128px -33px}
+.videoBtn:nth-child(3):hover {background-position: -256px -33px}
+.c3m {width: 1600px; height: 520px; background: url(../img/c3m.png) 0 0 no-repeat; position: absolute; left: 0px; top: 329px}
+.c3_2m {width: 1600px; height: 325px; background: url(../img/c3_2m.png) 0 0 no-repeat; position: absolute; left: 1600px; top: 609px}
+.cut3t {position: absolute; top: 50%; left: 15%; margin:-245px 0 0 -145px}
+.cut3b {cursor: pointer; position: absolute; top: 50%; left: 16%; margin:-40px 0 0 0; width: 144px; height: 117px; background: url() 0 0 no-repeat;}
+.cut3b:hover {background-position: -145px 0}
+.cut3b1 {background-image: url(../img/cut3b1.png); margin-left:-80px}
+.cut3b2 {background-image: url(../img/cut3b2.png); margin-left:80px}
+.question {position: absolute; width: 1024px; height: 100%; left: 50%; margin-left: 157px}
+.steps {position: relative; top: 50%; margin: -250px auto; width: 331px; height: 35px; background: url(../img/steps.png) 0 0 no-repeat;}
+.qs {position: absolute; top: 50%; width: 80%; height: 350px; left: 50%; margin: -200px 0 0 -40%; }
+.qs>div {height: 88px; position: absolute; top: 0; left: 0; width: 100%}
+.qs .q1 {background: url(../img/q1.png) 0 0 no-repeat}
+.qs .q2 {background: url(../img/q2.png) 0 0 no-repeat; display: none}
+.qs .q3 {background: url(../img/q3.png) 0 0 no-repeat; display: none}
+.qs .qtit {position: absolute; left: 172px; top: 53px; width: 600px; font: normal 24px/32px '微軟正黑體'}
+.radio {position: absolute; top: 118px; left: 150px; font: normal 18px/30px '微軟正黑體';}
+input[type=radio]:not(old){ opacity: 0}
+input[type=radio]:not(old) + label > span {display: inline-block; width: 32px; height: 31px; background: url(../img/O.png) 0 0 no-repeat; position: relative; top: 9px; margin-right: 10px;} 
+input[type=radio]:not(old) + label > span > span {display: inline-block; width: 31px; height: 32px; background: url() 0 0 no-repeat; position: absolute; left: 5px; top: -11px} 
+input[type=radio]:not(old):checked + label > span > span {background-image: url(../img/V.png) }
+.sel {width: 125px; height: 27px; background: url('../img/sel.png') no-repeat; position: relative; display: inline-block; cursor: pointer;}
+.send {background-position: -125px -27px; margin: 248px auto; display: block}
+
+.c4m {width: 803px; height: 389px; background: url(../img/c4m.png) 0 0 no-repeat; position: absolute; left: 37px; top: 50%; margin-top: -232px}
+.c4r {width: 829px; height: 536px; background: url(../img/c4r.png) 0 0 no-repeat; position: absolute; right: 25px; top: 303px}
+.c4l {width: 1582px; height: 211px; background: url(../img/c4l.png) 0 0 no-repeat; position: absolute; left: 0px; top: 722px; z-index: 1}
+.c5m {width: 2044px; height: 624px; background: url(../img/c5m.png) 0 0 no-repeat; position: absolute; left: -73px; top: 282px; z-index: 1}
+.c5r {width: 788px; height: 618px; background: url(../img/c5r.png) 0 0 no-repeat; position: absolute; left: -95px; top: 50%; margin-top: -274px; }
+.c5l {width: 257px; height: 414px; background: url(../img/c5l.png) 0 0 no-repeat; position: absolute; left: -111px; top: 457px; z-index: 1}
+.sec_front { top: 0; margin-top: 0; height: 100%}
+.sec_front .sec { position: relative; width: 1600px; height: 100%; float: left;}
+.box { outline: 1px solid #f00; width:1300px;height:700px; position: fixed; top:0; left:0; right: 0; bottom: 0; margin: auto; }
+
+
+.nav {position: absolute; width: 100%; top: 10%; left: 0; text-align: center}
+.nav .navBox { display: inline-block; width: 563px; position: relative;}
+.nav .navBox ul { width: 414px; border-bottom: 2px #f18d22 dotted; position: relative; left: 50%; margin-left: -207px;}
+.nav .navBox li { cursor: pointer; width: 6px; height: 6px; margin: -7px 81px 0 0; background: #fff; border-radius: 100%; float: left; border: 6px solid #fff}
+.nav .navBox li:nth-child(1) {border-color: #f18c1d} 
+.nav .navBox li:nth-child(2) {border-color: #fac518} 
+.nav .navBox li:nth-child(3) {border-color: #60c6e1} 
+.nav .navBox li:nth-child(4) {border-color: #2978bb} 
+.nav .navBox li:nth-child(5) {border-color: #87c670; margin-right: 0}
+.nav .navBox li span { font-weight: bold; width: 100px; display: inline-block; position: absolute; top: 25px; margin-left: -50px; color: #5a5a5a}
+.nav .navBox li:hover {width: 0px; height: 0px; border-width: 9px}
+.nav .navBox .navb { cursor: pointer; width: 28px; height: 28px; background: url(../img/navarrow.png) 0 0 no-repeat; position: absolute; top: -12px;} 
+.nav .navpre {left: 0}
+.nav .navBox .navnext {right: 0; background-position: -30px 0}
+.nav .navBox .logo {position: absolute; left: -111px; top: -32px; cursor: pointer;}
+.nav .winb {position: absolute; right: -148px; top: -14px; cursor: pointer;}
+.nav .music {position: absolute; width: 30px; height: 30px; background: url(../img/music.png) 0 0 no-repeat; right: -200px; top: -14px; cursor: pointer;}
+.cloud {position: absolute; width: 100%; top: 0;left: 0}
+.cloud .c1 {position: absolute; left: 0; top: 0}
+.cloud .c2 {position: absolute; left: 847px; top: 57px}
+.cloud .c3 {position: absolute; left: 1800px; top: 0}
+.cloud .c4 {position: absolute; left: 0; top: 0}
+.cloud .c5 {position: absolute; left: 1300px; top: 70px}
+.cloud .c6 {position: absolute; left: 547px; top: 0px}
+.cloud .c7 {position: absolute; left: 1700px; top: 200px}
+.cloud .c8 {position: absolute; left: 0; top: 0}
+.cloud .c9 {position: absolute; left: 2100px; top: 0}
+.cloud .c10 {position: absolute; left: -70px; top: 0}
+.cloud .c11 {position: absolute; left: 747px; top: 57px}
+.cloud .c12 {position: absolute; left: 1400px; top: 0}
+
+.footer {width: 100%; padding: 15px 0 0 0;text-align: center; position: absolute; bottom: 0; left: 0; background: #fff; z-index: 1}
+.footer .footerline{position: absolute; top: -6px; left: 0}
+.footer .footerp{display: inline-block}
+.cover { display: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0,0,0,.9); z-index: 1}
+.winner {display: none; width: 688px; height: 428px; background: url(../img/coverBg3.png) 0 0 no-repeat; top: 0; left: 0; right: 0; bottom: 0; margin: auto; position: absolute;}
+.winner .closew {position: absolute; right: 15px; top: 15px; cursor: pointer}
+.wform {overflow-y: auto; width: 618px; height: 250px; position: absolute; left: 33px; top: 146px}
+.wsec {width: 100%; height: 100%; position: absolute; top: 0; left: 0}
+.wline { position: relative; width: 50%; font: normal 16px/20px '微軟正黑體'; margin-bottom: 15px; height: 12px}
+.wline:nth-child(odd) {float: left;}
+.wline:nth-child(even) {float: right;}
+.wline span:nth-child(1) {position: absolute; left: 39px}
+.wline span:nth-child(2) {position: absolute; left: 129px}
+.coverContent { top: 0; left: 0; right: 0; bottom: 0; margin: auto; position: absolute; text-align: center; font: normal 18px/20px '微軟正黑體';}
+.shareVideo,.replay { display: none; width: 458px; height: 219px; background: url('../img/coverBg1.png') no-repeat; }
+.coverContent .dis {padding: 15% 0}
+.shareVideo .fbshare {background-position: 0 0 }
+.shareVideo .fbcancel {background-position: -125px 0 }
+.ibonSerial { display: none; width: 541px; height: 337px; background: url(../img/ibon1.png) 0 0 no-repeat; position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto;}
+.ibonSerial .serial { position: absolute; top: 166px; left: 22px; width: 283px; text-align: center; font: normal 23px/23px Arial}
+.ibonSerial .serialBtn {background-position: 0 -28px; position: absolute; left: 147px;position: absolute; bottom: 30px}
+.videoChallenge { display: none; height: 359px;width: 639px; top: 0;left: 0;bottom: 0;right: 0; margin: auto; position: absolute}
+.videoChallenge .closebtn {position: absolute; right: -50px; top: -50px; cursor: pointer}
+.again {background-position: 0 -56px}
+.cancel {background-position: -125px -56px}
+.lottery {display: none; width: 656px; height: 464px; background: url(../img/coverBg2.png) 0 0 no-repeat; top: 0; left: 0; right: 0; bottom: 0; margin: auto; position: absolute}
+.begin,.result {display: none}
+.lotteryp { position: absolute; width: 220px; height: 360px; background: url(../img/lotteryp.gif) 0 0 no-repeat; top: 80px; left: 260px}
+.go { position: absolute; width: 144px; height: 117px; background: url(../img/go.png) 0 0 no-repeat; top: 300px; left: 123px; cursor: pointer}
+.resultp { position: absolute; width: 518px; height: 304px; background: url(../img/result1.png) 0 0 no-repeat; top: 103px; left: 64px}
+.result1 {display: none; background-position: 0px -84px; left: 275px; top: 385px}
+.result2 {display: none; background-position: -125px -84px; left: 275px; top: 385px}
+.infoform { display: none; position: absolute; width: 547px; height: 430px; background: url(../img/infoform.png) 0 0 no-repeat; top: 0; left: 0; right: 0; bottom: 0; margin: auto}
+.q-text {width: 314px; position: absolute; left: 120px; top: 109px}
+.q-text input,.q-text select {border: none; outline: none; background:transparent;}
+.inputstyle {width: 99%; height: 21px; margin-bottom: 18px}
+.selectstyle {width: 93px; height: 27px; margin-bottom: 18px;  appearance: none; -moz-appearance:none;-webkit-appearance:none;}
+input[type=checkbox] { width: 15px; height: 15px; position: absolute; left: 0;}
+#readRule {top: 200px}
+#sendRule {top: 220px}
+.agreement {width: 67px; height: 18px; position: absolute; left: 236px; top: 309px; cursor: pointer;}
+.rule {width: 67px; height: 18px; position: absolute; left: 316px; top: 309px; cursor: pointer}
+.send_btn {background-position: -125px -28px; left: 215px; top: 369px}
+.rule_txt {width: 641px; height: 1670px; background: url(../img/rule_txt.png) 0 0 no-repeat; position: absolute; left: 0px; top: 0px; margin-bottom: 60px }
+.ruleBox {width: 665px; height: 340px; position: absolute; left: 330px; top: 120px; overflow-y: scroll }
+/* by maaaaatt */
+.seagull {
+	position: absolute;
+	top:50%;
+	margin:-46px 0 0 150px;
+}
+.people {
+	position: absolute;
+	left:990px; top:141px;
+	width: 142px; height: 231px; background: url(../img/people.png) 0 0 no-repeat; 
+}
+
+.c4l-2 {width: 1582px; height: 211px; background: url(../img/c4l_2.png) 0 0 no-repeat; position: absolute; left: 30px; top: 722px; z-index: 1}
